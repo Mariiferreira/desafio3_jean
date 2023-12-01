@@ -1,0 +1,129 @@
+.flex-container {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 8.5px;
+    padding: 8.5px;
+    font-size: 15px;
+}
+
+.main-texto {
+   max-width: 900px;
+   margin: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* border: solid red; */
+}
+
+figure{
+    margin: auto auto auto auto;
+    height: 414px;
+    width: 900px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 900px; */
+    height: 300px;
+    /* border: solid blue; */
+}
+
+nav > div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo{
+    /* margin-top: 60%; */
+    /* margin-right: auto; */
+    /* margin-bottom: 0.80%; */
+    /* margin-left: 50%;: */
+    max-width: 280px;
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border-radius: 50%; */
+}
+
+.menu{
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 0.80%;
+    margin-left: auto;
+}
+
+article{
+    margin: auto;
+    height: auto;
+    width: 900px;
+    /* border: solid green; */
+}
+
+article h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+
+article p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    color: black;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    color: black;
+}
+
+article ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    color: black;
+}
+
+form{
+    margin: auto;
+    height: auto;
+    width: 900px;
+    /* border: solid green; */
+}
+
+.outdoor{
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+    opacity: 0.9;
+
+}

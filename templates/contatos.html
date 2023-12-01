@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %} Quem Somos {% endblock %}
+
+{% block imagemfundo %} style="background-image: url('../static/img/fundo2.png')"{% endblock %}
+
+
+{% block content %}
+<main>
+    <article>
+        <h1>como comprar:</h1>
+        <div class="alert alert-secondary" role="alert">
+            <b>whatsapp:</b> (12)123456789
+        </div>
+        <hr>
+    </article>
+
+    <form action="">
+        <h2>fale conosco:</h2>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+            <label for="floatingInputDisabled">Digite seu e-mail</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+            <label for="floatingTextareaDisabled">nivel de doçura:</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled>Disabled textarea with some text inside</textarea>
+            <label for="floatingTextarea2Disabled">Commentários</label>
+          </div>
+          <div class="form-floating">
+            <!-- <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option> -->
+            <!-- </select>
+            <label for="floatingSelectDisabled">Works with selects</label> -->
+          </div>
+        <!-- <label for="email">Digite seu e-mail</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="assunto">nivel de doçura:</label><br>
+        <input type="text" id="assunto" name="assunto"><br>
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao" rows="1" cols="17"></textarea><br>
+        <input type="submit" value="Enviar"><br> -->
+    </form>
+
+</main>
+{% endblock %}

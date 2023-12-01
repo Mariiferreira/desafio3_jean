@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+
+    <!-- Referência para o arquivo de folha de estilos (CSS) necessário para o funcionamento do Bootstrap -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../static/css/style1.css">
+</head>
+
+<body>
+    
+    <nav style="background-image: url('../static/img/capa.jpg');">
+        <div>
+            <img class="logo" src="../static/img/logo4.png" style="border-radius: 50%" alt="logo" class="img-fluid">
+        </div>
+    </nav>
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary"><a href="{{url_for('index')}}">Home</a></button>
+        <button type="button" class="btn btn-outline-primary"><a href="{{url_for('quemsomos')}}">Quem somos</a></button>
+        <button type="button" class="btn btn-outline-primary"><a href="{{url_for('contatos')}}">Contato</a></button>
+    </div>
+    
+
+    {% block content %} {% endblock %}
+
+    <footer>
+        <h3 style="text-align: center;">Todos os direitos reservados</h3>
+    </footer>
+
+    <!-- Referências para os arquivos (Javascript) necessários para o funcionamento do Bootstrap -->
+    <script src="../static/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
