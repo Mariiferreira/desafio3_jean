@@ -127,3 +127,33 @@ form{
     opacity: 0.9;
 
 }
+
+.alert-danger{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+}
+
+.alert-danger > div{
+
+}
+
+#rodinhaladoesq{
+    margin-left: auto;
+}
+
+#rodinhaladodir{
+    margin-right:  auto;
+}
+
+#rodinhacenter{
+    margin-left: auto;
+    margin-right:  auto;
+}
+
+#carouselExampleFade{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
